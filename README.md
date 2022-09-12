@@ -27,7 +27,14 @@ How To Run:
 ```
 1. Clone this Repository
 2. go to the terminal in Volunteers Registrations folder
-3. Do npm install
+3. run 'npm install'
 4. run the command 'npm start' to run the project
-5. open 'http://localhost:3000' [local host](http://localhost:3000)
+5. open 'http://localhost:3000'
 ```
+# More Info
+
+* I have used HTML/CSS for frontend
+* For backend I am using **nodeJS**
+* **mongodb** is used for database
+* I have usee mongodb compass in my local to see the database
+* printing the database using ejs
