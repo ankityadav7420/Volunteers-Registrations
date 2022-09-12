@@ -1,14 +1,15 @@
 # **Volunteers-Registrations**
-# This is Ful=stack project for Volunteers-Registrations
+# This is Ful-stack project for Volunteers-Registrations
 
 #What this Project will Do:
+
   -> Volunteers will be able register for next opportunity using the registration form. He/she have to send their Name, Email, Contact Detail,known 
      Language amd avalibity day. According to his/her avalibility he will assign their work by Adminstration
 
   -> Admin can see all the registration data from all Volunteers.
 
 #How It will Look:
-![Project ]
+![Project C:\Users\Ankit kumar Yadav\Pictures\Screenshots/admin]
 
 How To Run:
 ```
