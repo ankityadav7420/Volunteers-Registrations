@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form - Tech For India</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</head>
+
+<body>
+        <script>
+        function myFunction() {
+        document.getElementById("adminSubmit").style.color = "red";
+        }
+        </script>
+    <script>
+        function submitForm(event) {
+            const user_name = event.target.elements.UsernameAdmin.value;
+            const pass_word = event.target.elements.passwordAdmin.value;
+            if(user_name.match("admin") && pass_word.match("password")){
+                alert("Admin Logged In")
+        }
+        return false;
+        }
+    </script>
+</body>
+</html>

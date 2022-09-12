@@ -1,0 +1,76 @@
+.main.homePage {
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    box-shadow: 5px 5px 7px 5px #888888;
+    background-color: #4c8aec;
+}
+.homePage{
+    background-color: #970fda; background-image: linear-gradient(43deg, #4158D0 0%, #09c6e8 46%, #cc98d0 100%);
+}
+.adminPage{
+    background-color: #24c680; background-image: linear-gradient(43deg, #99cc19 0%, #5115f5 46%, #63097e 100%);
+}
+.adminSubmit{
+    background-color: #0aabc1;
+    width: 35vw;
+    height: 8vh;
+    border-radius: 4px solid blue;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.container .homePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left:35%; */
+    /* margin-right: 220px; */
+    background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #1985f1 46%, #8eea0e 100%);
+}
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+   
+}
+
+input {
+    margin-left: 5% !important;
+    font-family: 'Helvetica', serif;
+    width: 90%;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid #767474;
+    border-radius: 9%;
+}
+
+input[type=submit] {
+    margin-left: 5% !important;
+    font-family: 'Helvetica', serif;
+    width: 90%;
+    background-color: #767474;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top:35vh;
+    margin-left: 30vh;
+}
+#adminLogin{
+    align-items: center;
+}
+
+.btn-primary{
+    height: 20vh;
+    width: 12vw;
+    font-weight: bold;
+}
+.succesHome{
+    width: 10vw;
+    height: 10vh;
+}

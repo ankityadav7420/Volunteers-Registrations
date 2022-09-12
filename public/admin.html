@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech For India Admin Login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</head>
+
+<body class="adminPage">
+
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-md-4 ">
+                <a href="index.html">
+                    <button type="button" class="btn btn-primary"> Home</button>
+                </a> 
+            </div>
+            <div class="col-md-5">
+                <h1>Tech For India Admin Login</h1>
+                <form action="/getdetails" method="GET" id="form" onsubmit="submitForm(event)">
+                   <!-- <h2>SignUp Form</h2> -->
+                   <input type="text" class="box" id="UsernameAdmin" name="UsernameAdmin" placeholder="Username" required />
+                   <br>
+                   <input type="text" class="box" id="passwordAdmin" name="passwordAdmin" placeholder="Password" required />
+                   <br>
+                   <button type="submit" class="adminSubmit" value="Submit" id="adminSubmit">Submit</button>
+               </form>
+
+               </div>
+        </div>
+    </div>
+    <script>
+        function submitForm(event) {
+            const user_name = event.target.elements.UsernameAdmin.value;
+            const pass_word = event.target.elements.passwordAdmin.value;
+            if(user_name.match("admin") && pass_word.match("password")){
+                alert("Admin Logged In")
+            }else{
+                return res.redirect('admin.html');
+                alert("Invalid Admin User Name or Password");
+            }
+        return false;
+        }  
+    </script>
+    
+</body>
+
+</html>

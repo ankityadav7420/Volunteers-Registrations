@@ -1,0 +1,25 @@
+
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   }
+
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+  }
+  th {
+    background-color: yellow;
+  }
+    tr:nth-child(odd) {
+      background-color: aqua;
+    }
+    .col-md-3{
+      padding-top: 19px;
+    }
+    .body{
+      background-color: rgb(146, 231, 231);
+    }
+ 
